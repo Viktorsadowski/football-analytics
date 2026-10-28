@@ -300,10 +300,10 @@ s.append(P(f"The case study ({CASE}) puts the model to work on one window. Manch
            "club would actually sell to United (a club rated below them, or a player surplus where he is). Two "
            "alternative windows are searched. Scenario A, best value, makes the most money over the players' "
            "contracts without United losing projected points. Scenario B, most points, gets the most projected "
-           "2023-24 points without the window losing money over the contracts. Both are graded on 2023-24 with every player's real rating that season, and a season simulator "
+           "2023-24 points without the window losing money over the contracts. Both are graded on 2023-24 with every player's real value that season, and a season simulator "
            "gives the pre-season odds. Scenario B (Bruno Guimarães, Theo Hernández, Udogie, Botman, Solly March "
            "and Sørloth in; Varane, Martial, Telles, Van de Beek, Malacia and Greenwood out, a net spend of EUR 129m) would have been worth "
-           "about 77-78 league points with the players' real 2023-24 ratings, against the 60 United got. The real window "
+           "about 77-78 league points with the players' real 2023-24 values, against the 60 United got. The real window "
            "(Mount, Onana, Højlund, Bayındır) comes out level with standing still."))
 
 # 6
@@ -324,7 +324,7 @@ s += bullets([
     "to buy can't be told apart from plain loans.",
     "The backtests are mostly out of sample, but some pieces (the aging curves, the box-score prior's form, the "
     "window weights, the injury rules) were fitted or tuned on all seasons.",
-    "The case study's greedy search can tip on a near tie; one run picked Barcola, another Ali-Cho as A's right "
+    "The case study's greedy search can tip on a near tie; one run picked Barcola, another Ali-Cho as Scenario A's right "
     "winger. run_all.py runs single-threaded to make reruns identical."])
 
 # appendix
@@ -346,7 +346,7 @@ s.append(table([
     ["Wage model", "leave-one-out error of log wage, each term must lower it", "0.53 vs 0.74"],
     ["Transfer valuation", "rank of realised surplus, 250 PL signings (beat both benchmarks)", "0.44 vs 0.32 and "
      "0.09"],
-    ["United case", "real 2023-24 ratings on each window's depth chart", "scenario B (most points) 77-78 vs 60 real"],
+    ["United case", "real 2023-24 values on each window's depth chart", "scenario B (most points) 77-78 vs 60 real"],
 ], [3.2 * cm, 7.8 * cm, 5.8 * cm]))
 s.append(P("Appendix B. Reproducing it", h1))
 s.append(P("Everything runs from the repository with Python 3 (pandas, numpy, scipy, scikit-learn, matplotlib, "

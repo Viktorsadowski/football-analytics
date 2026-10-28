@@ -95,16 +95,22 @@ def pipeline() -> None:
     box(xs[3], mid, w, h, "Minutes", "injury risk + share of\nteam minutes next season", LIGHT_ORANGE, ORANGE)
     arrow(xs[1] + w + 0.4, mid + h / 2, xs[2] - 0.4, mid + h / 2)
     arrow(xs[2] + w + 0.4, mid + h / 2, xs[3] - 0.4, mid + h / 2)
-    arrow(xs[3] + w + 0.4, mid + h / 2 + 1.5, xs[4] + 2, top - 0.4)
+    # elbow arrows so minutes -> points and points -> transfer value don't cross or run over a box
+    def elbow(pts):
+        for (x0, y0), (x1, y1) in zip(pts[:-2], pts[1:-1]):
+            ax.plot([x0, x1], [y0, y1], color=MUTED, lw=0.9, solid_capstyle="butt")
+        arrow(*pts[-2], *pts[-1])
+    elbow([(xs[3] + w + 0.4, mid + h / 2), (xs[4] + 4, mid + h / 2), (xs[4] + 4, top - 0.4)])
     # money
     box(xs[1], bot, w, h, "Prize money", "PL payments by place,\nCL, relegation", LIGHT_GREY, MUTED)
     box(xs[2], bot, w, h, "Wages", "59 press-reported wages,\n126 club accounts", LIGHT_GREY, MUTED)
     box(xs[3], bot, w, h, "Transfer value", "points x price - wages\n+ resale - fee", LIGHT_GREY, MUTED)
-    box(xs[4], bot, w, h, "United case", "summer 2023 windows,\nsimulated + hindsight", LIGHT_GREY, MUTED)
+    box(xs[4], bot, w, h, "United case", "summer 2023, scenarios A\nand B, graded on 2023-24", LIGHT_GREY, MUTED)
     arrow(xs[1] + w + 0.4, bot + h / 2, xs[2] - 0.4, bot + h / 2)
     arrow(xs[2] + w + 0.4, bot + h / 2, xs[3] - 0.4, bot + h / 2)
     arrow(xs[3] + w + 0.4, bot + h / 2, xs[4] - 0.4, bot + h / 2)
-    arrow(xs[4] + w / 2, top - 0.4, xs[3] + w / 2 + 3, bot + h + 0.4)
+    elbow([(xs[4] + w - 3, top - 0.4), (xs[4] + w - 3, bot + h + 1.7), (xs[3] + w / 2, bot + h + 1.7),
+           (xs[3] + w / 2, bot + h + 0.4)])
     ax.text(0.5, mid + h / 2 - 6.5, "Side questions on\nthe same values:\npositions, age,\nbig fees, overreaction",
             fontsize=6.8, color=MUTED, va="center", linespacing=1.3)
     save(fig, "pipeline.png")
