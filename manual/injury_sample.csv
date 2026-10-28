@@ -1,0 +1,41 @@
+player_id,name,club_id,last_date,start_date,first_back,games,days,left_early,ret_start,club,verdict,source
+85370,Sergi Roberto,1047,2024-10-25,2024-10-31,2024-12-15,6,51,True,False,Como 1907,injury,flashscore: thigh 26.10.2024-13.12.2024
+512385,Luis Sinisterra,989,2024-03-13,2024-03-30,2024-04-13,3,31,True,True,AFC Bournemouth,injury,soccerway: thigh 22.03.2024-12.04.2024
+93664,Abdelaziz Barrada,244,2016-03-12,2016-03-18,2016-04-24,4,43,False,False,Olympique Marseille,unclear,soccerway: no data for him
+798404,Alidu Seidu,273,2024-11-24,2024-11-30,2025-08-24,23,273,True,False,Stade Rennais FC,injury,flashscore: knee 25.11.2024-23.08.2025
+22386,Daniel Congré,969,2016-09-24,2016-10-01,2016-11-19,5,56,True,False,Montpellier HSC,injury,soccerway: thigh 25.09.2016-03.11.2016
+19059,Heurelho Gomes,1010,2018-01-13,2018-01-20,2018-02-24,5,42,False,False,Watford FC,unclear,soccerway: history starts 2020
+139279,Nicolas Pallois,995,2022-03-12,2022-03-19,2022-04-17,3,36,True,True,FC Nantes,injury,soccerway: knee 15.03.2022-16.04.2022
+30059,Lars Bender,15,2019-03-29,2019-04-06,2019-04-20,2,22,True,False,Bayer 04 Leverkusen,injury,soccerway: thigh 30.03.2019-19.04.2019
+406042,Dennis Johnsen,607,2022-01-12,2022-01-16,2022-02-06,2,25,False,True,Venezia FC,injury,soccerway: injury 13.01.2022-04.02.2022
+367466,Thierry Correia,1049,2022-02-13,2022-02-20,2022-04-03,6,49,False,True,Valencia CF,injury,soccerway: knee 14.02.2022-16.03.2022
+41414,Lucas Leiva,31,2014-08-17,2014-08-25,2014-09-13,2,27,False,False,Liverpool FC,unclear,flashscore: history starts 2016
+58076,Piti,16795,2015-08-30,2015-09-13,2015-10-03,4,34,True,False,Granada CF,unclear,no source found
+18955,Renaud Cohade,618,2016-03-05,2016-03-12,2016-04-02,2,28,False,True,AS Saint-Étienne,injury,footmercato: ankle/foot 07.03.2016-01.04.2016
+157506,Jeffrey Schlupp,1003,2015-04-18,2015-04-25,2015-05-02,2,14,False,True,Leicester City,unclear,no source found
+127610,Mexer,273,2017-08-26,2017-09-10,2017-11-18,8,84,False,True,Stade Rennais FC,not injury,"soccerway: nothing Aug-Nov 2017, history covers 2016 on"
+126557,Jonathan Gradit,826,2023-12-12,2023-12-16,2024-01-14,2,33,False,True,RC Lens,injury,soccerway: calf 15.12.2023-18.12.2023
+649672,Nicolás Capaldo,41,2026-03-01,2026-03-04,2026-04-12,5,42,True,False,Hamburger SV,injury,flashscore: abdominal strain 02.03.2026-11.04.2026
+67808,Borja García,993,2015-01-31,2015-02-08,2015-02-21,2,21,True,False,Córdoba CF,unclear,no source found
+76467,Kiko Femenía,1050,2025-02-08,2025-02-15,2025-03-30,4,50,True,False,Villarreal CF,injury,soccerway: back 09.02.2025-28.03.2025
+41414,Lucas Leiva,31,2015-05-24,2015-08-09,2015-08-24,2,92,False,True,Liverpool FC,unclear,flashscore: history starts 2016
+58205,André Schürrle,931,2019-02-09,2019-02-22,2019-03-30,5,49,True,False,Fulham FC,illness,flashscore: illness 10.02.2019-29.03.2019
+391004,Jonas Wind,82,2022-08-06,2022-08-14,2022-10-15,8,70,False,False,VfL Wolfsburg,injury,soccerway: thigh 07.08.2022-14.10.2022
+215616,Erick Pulgar,430,2020-08-02,2020-09-19,2020-10-18,3,77,False,False,ACF Fiorentina,not injury,"soccerway: nothing in 2020, history covers 2017 on"
+45639,Mubarak Wakaso,472,2015-11-28,2015-12-03,2015-12-19,4,21,True,False,UD Las Palmas,unclear,no source found
+13217,João Pereira,1049,2013-11-28,2013-12-01,2013-12-12,2,14,False,True,Valencia CF,unclear,"laliga.com: adductor strain 31.10.2013, ~15 days, before this spell"
+68390,Séamus Coleman,29,2020-10-17,2020-10-25,2020-11-07,2,21,True,True,Everton FC,injury,soccerway: thigh 18.10.2020-06.11.2020
+39717,Diego Contento,40,2015-10-01,2015-10-04,2015-11-05,5,35,False,True,FC Girondins Bordeaux,unclear,soccerway: history starts 2017
+35207,Marco Reus,16,2019-02-05,2019-02-09,2019-03-01,4,24,True,True,Borussia Dortmund,injury,soccerway: thigh 06.02.2019-28.02.2019
+34336,Andrea Costa,749,2016-01-10,2016-01-17,2016-03-06,8,56,False,False,FC Empoli,unclear,no source found
+108880,Koen Casteels,533,2014-03-15,2014-03-23,2014-04-06,3,22,False,True,TSG 1899 Hoffenheim,unclear,"bundesliga.com: tibia fracture vs Hertha, date not confirmed"
+135853,Manuel Lanzini,379,2017-05-21,2017-08-13,2017-08-26,2,97,False,False,West Ham United,injury,soccerway: knee 09.08.2017-29.09.2017
+52769,Willian,631,2018-01-20,2018-01-28,2018-02-05,2,16,False,True,Chelsea FC,injury,soccerway: muscle 25.01.2018-04.02.2018
+363205,Gabriel Jesus,11,2024-01-30,2024-02-04,2024-02-24,4,25,False,False,Arsenal FC,injury,flashscore: injury 04.02.2024-23.02.2024
+221025,André Gomes,1082,2025-11-23,2025-11-27,2025-12-05,2,12,False,False,LOSC Lille,not injury,soccerway: nothing Nov-Dec 2025
+741238,Omari Hutchinson,677,2024-12-30,2025-01-05,2025-01-16,2,17,False,True,Ipswich Town,injury,soccerway: groin 31.12.2024-16.01.2025
+622988,Fran Pérez,1049,2024-12-22,2025-01-03,2025-01-19,4,28,True,False,Valencia CF,injury,soccerway: hamstring 23.12.2024-17.01.2025
+102558,Marco Verratti,583,2016-11-27,2016-11-30,2016-12-11,3,14,False,True,Paris Saint-Germain,injury,soccerway: thigh 01.12.2016-04.12.2016
+540941,Mikkel Damsgaard,1148,2023-08-19,2023-08-26,2023-12-06,13,109,True,False,Brentford FC,injury,soccerway: knock 20.08.2023-05.12.2023
+55735,Henrikh Mkhitaryan,985,2017-11-05,2017-11-18,2017-11-25,2,20,False,False,Manchester United,not injury,"dropped by Mourinho (SI, 26.11.2017)"
+45256,Jean-Sylvain Babin,2448,2017-01-29,2017-02-05,2017-03-01,4,31,True,True,Sporting Gijón,injury,soccerway: groin 29.01.2017-28.02.2017

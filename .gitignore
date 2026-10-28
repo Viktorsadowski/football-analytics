@@ -1,0 +1,14 @@
+# raw dumps and everything built from them stay local, too big and not ours to redistribute
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# run_all.py step logs
+logs/

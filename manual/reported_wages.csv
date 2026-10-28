@@ -1,0 +1,60 @@
+player,tm_club_id,league,season,amount,unit,outlet,url,quality
+Casemiro,985,EPL,2022,350000,gbp_week,The Athletic,https://www.unitedinfocus.com/news/casemiro-reportedly-set-to-sign-four-year-deal-around-350000-per-week/,ok
+Marcus Rashford,985,EPL,2023,325000,gbp_week,The Times,https://sportskeeda.com/football/news-how-much-will-marcus-rashford-reportedly-earn-manchester-united-details-new-5-year-contract-emerge,ok
+Kobbie Mainoo,985,EPL,2023,10000,gbp_week,The Sun,https://thehardtackle.com/transfer-news/2023/12/04/kobbie-mainoo-set-for-manchester-united-pay-hike/,ok
+Alejandro Garnacho,985,EPL,2022,30000,gbp_week,Reuters / FootballTransfers,https://ghanaiantimes.com.gh/teen-striker-garnacho-agrees-30000-a-week-united-contract,ok
+Mason Mount,985,EPL,2023,250000,gbp_week,Evening Standard,https://www.footballtransfers.com/en/transfer-news/uk-premier-league/2023/07/mason-mount-man-utd-salary-wages,ok
+Bruno Fernandes,985,EPL,2022,240000,gbp_week,The Athletic,https://soccerladuma.co.za/local/archive/manchester-united-to-double-bruno-fernandes-wages-20220325,ok
+Erling Haaland,281,EPL,2022,375000,gbp_week,Fabrizio Romano,https://www.scotsman.com/sport/football/erling-haaland-to-manchester-city-whats-his-salary-transfer-fee-how-many-goals-has-he-scored-3688572,ok
+Rico Lewis,281,EPL,2022,25000,gbp_week,Daily Star Sunday,https://www.pressreader.com/uk/daily-star-sunday/20230205/283046943629191,ok
+Declan Rice,11,EPL,2023,240000,gbp_week,Flashscore (reported),https://www.flashscore.com/news/soccer-premier-league-flashscore-sources-declan-rice-to-be-rewarded-for-living-up-to-his-105m-price-tag/0IPvaEdE/,ok
+Mohamed Salah,31,EPL,2022,350000,gbp_week,The Times,https://www.thisisanfield.com/?p=268737,ok
+Michael Olise,873,EPL,2023,100000,gbp_week,Football Insider,https://www.shoot.co.uk/man-city-target-set-to-be-handed-huge-new-contract/,ok
+Wilfried Zaha,873,EPL,2018,130000,gbp_week,British media (unnamed),https://www.dtnext.in/news/sports/zaha-signs-new-fiveyear-deal-at-palace,ok
+Kaoru Mitoma,1237,EPL,2023,80000,gbp_week,LondonWorld,https://www.sportsmole.co.uk/football/brighton-and-hove-albion/transfer-talk/news/kaoru-mitoma-agrees-new-five-year-brighton-contract_525826.html,ok
+Jamie Vardy,1003,EPL,2015,60000,gbp_week,Daily Express,https://www.liverpoolfc.com/news/media-watch/223956-liverpool-rival-arsenal-for-premier-league-hitman,ok
+Lautaro Martínez,46,Serie A,2023,7860000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2023/09/03/inter-stipendi-2023-24-calhanoglu-lautaro-thuram/,ok
+Yann Bisseck,46,Serie A,2023,1260000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2023/09/03/inter-stipendi-2023-24-calhanoglu-lautaro-thuram/,ok
+Francesco Acerbi,46,Serie A,2023,2780000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2023/09/03/inter-stipendi-2023-24-calhanoglu-lautaro-thuram/,ok
+Rafael Leão,5,Serie A,2023,6550000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2023/09/03/milan-stipendi-2023-2024-leao-pulisic-giroud/,ok
+Olivier Giroud,5,Serie A,2023,4590000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2023/09/03/milan-stipendi-2023-2024-leao-pulisic-giroud/,ok
+Dusan Vlahovic,506,Serie A,2023,12950000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2023/09/03/juventus-stipendi-2023-2024-pogba-milik/,ok
+Fabio Miretti,506,Serie A,2023,555000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2023/09/03/juventus-stipendi-2023-2024-pogba-milik/,ok
+Danilo,506,Serie A,2023,5240000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2023/09/03/juventus-stipendi-2023-2024-pogba-milik/,ok
+Khvicha Kvaratskhelia,6195,Serie A,2023,1300000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2023/09/03/napoli-stipendi-2023-2024-osimhen-kvaratskhelia/,ok
+Giorgio Scalvini,800,Serie A,2024,2770000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2024/09/02/stipendi-atalanta-2024-2025/,ok
+Marten de Roon,800,Serie A,2024,1850000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2024/09/02/stipendi-atalanta-2024-2025/,ok
+Dan Ndoye,1025,Serie A,2024,1050000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2024/09/02/stipendi-bologna-2024-2025/,ok
+Riccardo Orsolini,1025,Serie A,2024,3700000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2024/09/02/stipendi-bologna-2024-2025/,ok
+Lorenzo De Silvestri,1025,Serie A,2024,370000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2024/09/02/stipendi-bologna-2024-2025/,ok
+Nikola Krstovic,1005,Serie A,2024,450000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2024/08/30/lecce-stipendi-2024-2025/,ok
+Federico Baschirotto,1005,Serie A,2024,1110000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2024/08/30/lecce-stipendi-2024-2025/,ok
+Lameck Banda,1005,Serie A,2024,650000.0,eur_year_gross,calcio e finanza (Gazzetta data),https://www.calcioefinanza.it/2024/08/30/lecce-stipendi-2024-2025/,ok
+Harry Kane,27,Bundesliga,2024,24000000.0,eur_year_gross,Sport Bild (max incl. bonuses),https://www.leinetal24.de/sport/fussball/gehaltsliste-der-bayern-stars-aufgedeckt-besonders-die-verguetung-eines-fcb-youngsters-ueberrascht-zr-93314362.html,ok
+Jamal Musiala,27,Bundesliga,2024,9000000.0,eur_year_gross,Sport Bild (max incl. bonuses),https://www.leinetal24.de/sport/fussball/gehaltsliste-der-bayern-stars-aufgedeckt-besonders-die-verguetung-eines-fcb-youngsters-ueberrascht-zr-93314362.html,ok
+Aleksandar Pavlovic,27,Bundesliga,2024,7000000.0,eur_year_gross,Sport Bild (max incl. bonuses),https://www.leinetal24.de/sport/fussball/gehaltsliste-der-bayern-stars-aufgedeckt-besonders-die-verguetung-eines-fcb-youngsters-ueberrascht-zr-93314362.html,ok
+Mathys Tel,27,Bundesliga,2024,4000000.0,eur_year_gross,Sport Bild (max incl. bonuses),https://www.leinetal24.de/sport/fussball/gehaltsliste-der-bayern-stars-aufgedeckt-besonders-die-verguetung-eines-fcb-youngsters-ueberrascht-zr-93314362.html,ok
+Thomas Müller,27,Bundesliga,2024,17000000.0,eur_year_gross,Sport Bild (max incl. bonuses),https://www.leinetal24.de/sport/fussball/gehaltsliste-der-bayern-stars-aufgedeckt-besonders-die-verguetung-eines-fcb-youngsters-ueberrascht-zr-93314362.html,ok
+Min-jae Kim,27,Bundesliga,2024,16000000.0,eur_year_gross,Sport Bild (max incl. bonuses),https://www.leinetal24.de/sport/fussball/gehaltsliste-der-bayern-stars-aufgedeckt-besonders-die-verguetung-eines-fcb-youngsters-ueberrascht-zr-93314362.html,ok
+Sven Ulreich,27,Bundesliga,2024,1400000.0,eur_year_gross,Sport Bild (max incl. bonuses),https://www.leinetal24.de/sport/fussball/gehaltsliste-der-bayern-stars-aufgedeckt-besonders-die-verguetung-eines-fcb-youngsters-ueberrascht-zr-93314362.html,ok
+Serhou Guirassy,16,Bundesliga,2024,9000000.0,eur_year_gross,Sport Bild (base salary),https://www.heidelberg24.de/sport/fussball/bericht-deckt-brisante-vertragsdetails-von-bvb-star-guirassy-auf-zr-93943115.html,ok
+Patrik Schick,15,Bundesliga,2022,7500000.0,eur_year_gross,Sport Bild (estimate),https://www.fussballdaten.de/news/1-bundesliga/neues-ranking-das-sind-die-neuen-top-verdiener-der-bundesliga-f6bb629d/,ok
+Andrej Kramaric,533,Bundesliga,2022,5000000.0,eur_year_gross,Sport Bild (estimate),https://www.fussballdaten.de/news/1-bundesliga/neues-ranking-das-sind-die-neuen-top-verdiener-der-bundesliga-f6bb629d/,ok
+Borna Sosa,79,Bundesliga,2022,2500000.0,eur_year_gross,Sport Bild (estimate),https://www.fussballdaten.de/news/1-bundesliga/neues-ranking-das-sind-die-neuen-top-verdiener-der-bundesliga-f6bb629d/,ok
+Niklas Dorsch,167,Bundesliga,2022,1500000.0,eur_year_gross,Sport Bild (estimate),https://www.fussballdaten.de/news/1-bundesliga/neues-ranking-das-sind-die-neuen-top-verdiener-der-bundesliga-f6bb629d/,ok
+Manuel Riemann,80,Bundesliga,2022,1000000.0,eur_year_gross,Sport Bild (estimate),https://www.fussballdaten.de/news/1-bundesliga/neues-ranking-das-sind-die-neuen-top-verdiener-der-bundesliga-f6bb629d/,ok
+Ousmane Dembélé,583,Ligue 1,2023,1120000.0,eur_month_gross,L'Équipe,https://fr.soccerway.com/actualites/football-ligue-1-kylian-mbappe-largement-en-tete-les-30-plus-gros-salaires-de-ligue-1-reveles/rJmyZf4M,ok
+Achraf Hakimi,583,Ligue 1,2023,738600,eur_month_gross,L'Équipe,https://fr.soccerway.com/actualites/football-ligue-1-kylian-mbappe-largement-en-tete-les-30-plus-gros-salaires-de-ligue-1-reveles/rJmyZf4M,ok
+Bradley Barcola,583,Ligue 1,2023,550000,eur_month_gross,L'Équipe,https://fr.soccerway.com/actualites/football-ligue-1-kylian-mbappe-largement-en-tete-les-30-plus-gros-salaires-de-ligue-1-reveles/rJmyZf4M,ok
+Manuel Ugarte,583,Ligue 1,2023,412100,eur_month_gross,L'Équipe,https://fr.soccerway.com/actualites/football-ligue-1-kylian-mbappe-largement-en-tete-les-30-plus-gros-salaires-de-ligue-1-reveles/rJmyZf4M,ok
+Pierre-Emerick Aubameyang,244,Ligue 1,2023,650000,eur_month_gross,L'Équipe,https://fr.soccerway.com/actualites/football-ligue-1-kylian-mbappe-largement-en-tete-les-30-plus-gros-salaires-de-ligue-1-reveles/rJmyZf4M,ok
+Wissam Ben Yedder,162,Ligue 1,2023,650000,eur_month_gross,L'Équipe,https://fr.soccerway.com/actualites/football-ligue-1-kylian-mbappe-largement-en-tete-les-30-plus-gros-salaires-de-ligue-1-reveles/rJmyZf4M,ok
+Alexandre Lacazette,1041,Ligue 1,2023,500000,eur_month_gross,L'Équipe,https://fr.soccerway.com/actualites/football-ligue-1-kylian-mbappe-largement-en-tete-les-30-plus-gros-salaires-de-ligue-1-reveles/rJmyZf4M,ok
+Pierre Lees-Melou,3911,Ligue 1,2023,80000,eur_month_gross,L'Équipe,https://www.90min.com/fr/posts/quels-sont-les-salaires-des-joueurs-du-stade-brestois,ok
+Marco Bizot,3911,Ligue 1,2023,80000,eur_month_gross,L'Équipe,https://www.90min.com/fr/posts/quels-sont-les-salaires-des-joueurs-du-stade-brestois,ok
+Romain Del Castillo,3911,Ligue 1,2023,70000,eur_month_gross,L'Équipe,https://www.90min.com/fr/posts/quels-sont-les-salaires-des-joueurs-du-stade-brestois,ok
+Hugo Magnetti,3911,Ligue 1,2023,45000,eur_month_gross,L'Équipe,https://www.90min.com/fr/posts/quels-sont-les-salaires-des-joueurs-du-stade-brestois,ok
+Jude Bellingham,418,La liga,2023,20040000.0,eur_year_unknown,'prensa especializada' (unnamed),https://www.bloomberglinea.com/2024/05/09/sueldos-de-bellingham-y-vinicius-las-caras-del-real-madrid-en-la-final-de-la-champions-league/,low
+Vinicius Junior,418,La liga,2023,20000000.0,eur_year_gross,unattributed,https://www.bloomberglinea.com/2024/05/09/sueldos-de-bellingham-y-vinicius-las-caras-del-real-madrid-en-la-final-de-la-champions-league/,low
+Antoine Griezmann,13,La liga,2021,12000000.0,eur_year_net,El Chiringuito,https://www.fichajes.net/noticias/cifras-contrato-griezmann-atletico-20210715.html,low
+Lamine Yamal,131,La liga,2023,1670000.0,eur_year_unknown,Fichajes.com,https://www.tunota.com/deportes/lamine-yamal-sueldo-cuanto-cobra-cuanto-mide-peso-edad-2024-04-16,low
