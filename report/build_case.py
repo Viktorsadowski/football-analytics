@@ -59,7 +59,14 @@ def moves_table(w, cap):
                      f"{r['val_real']:+.2f}" if pd.notna(r["val_real"]) else "no data",
                      f"{r['min_after']:,.0f}",
                      f"{r['mv_before'] / 1e6:.0f} → {r['mv_after'] / 1e6:.0f}" if pd.notna(r["mv_after"]) else ""])
-    return table(rows, [0.9 * cm, 4.1 * cm, 1.6 * cm, 2.2 * cm, 2.2 * cm, 2.2 * cm, 3.6 * cm], cap)
+    # totals: money in and out (sales per player aren't in the moves file, the window total is in united_case.json)
+    paid, got = uc[w]["fees"] / 1e6, uc[w]["sales"] / 1e6
+    for d, lab, money in (("in", "Signings, total paid", paid), ("out", "Sales, total received", got)):
+        x = m[(m["dir"] == d) & m["mv_after"].notna()]
+        b, a = x["mv_before"].sum() / 1e6, x["mv_after"].sum() / 1e6
+        rows.append(["", lab, f"{money:.0f}", "", "", "", f"{b:.0f} → {a:.0f} ({a - b:+.0f})"])
+    rows.append(["", "Net spend", f"{paid - got:+.0f}", "", "", "", ""])
+    return table(rows, [0.9 * cm, 4.1 * cm, 1.6 * cm, 2.2 * cm, 2.2 * cm, 2.2 * cm, 3.6 * cm], cap, totals=3)
 
 
 s = []
@@ -216,12 +223,10 @@ s.append(figure(FIG / "season_sim.png", "Figure 1. Top: United's simulated 2023-
                 "as seen on 1 September 2023. Bottom: the same windows scored with every player's real 2023-24 "
                 "value. The dashed line is the real 60."))
 
-s.append(P("How to read Figure 1: each curve in the top panel is the spread of United's league points over the 20,000 "
-           "simulated seasons, so the peak is the most likely total and the width is the luck. Scenario B's curve sits "
-           "about 15 points to the right of the real window's, which is the difference between 40% and 87% for the top "
-           "four in Table 3. The bottom panel is the hindsight grade from section 4, drawn on the same points scale. "
-           "Each bar is a range, since the grade comes in two versions. The real window sits exactly on the "
-           "real 60, because every grade is measured from it."))
+s.append(P("The curves in Figure 1 are United's points over the 20,000 simulated seasons. Scenario B's sits about 15 "
+           "points to the right of the real window's, the difference between a 40% and an 87% chance of the top four. "
+           "The bars below are the hindsight grade from section 4, a range because it is calculated two ways. The real "
+           "window sits on 60 because every grade is measured from it."))
 
 # united's real 2023-24 squad on its real league minutes, as an anchor for figure 2
 war_ = pd.read_parquet(PROCESSED_DIR / "war.parquet")
@@ -254,11 +259,10 @@ s.append(P(f"For a sense of scale: United's real 2023-24 squad, every player on 
 s.append(figure(RFIG / "case_points.png", "Figure 2. League points above replacement level for 2023-24 per window: as "
                 "projected in summer 2023 (dark), with the players' real 2023-24 values on the planned minutes "
                 "(middle), and with their minutes capped at what they really played (light)."))
-s.append(P(f"How to read Figure 2: within each window, the dark bar is what the model expected in summer 2023, and "
-           f"the two lighter bars are what the same players were really worth that season. Every window drops from "
-           f"the dark bar to the middle one, since the model projected United too high overall: most of the squad "
-           f"rated lower in 2023-24 than on its 2022-23 numbers. The drop to the light bar is lost minutes. What "
-           f"matters for the grade is the order between the windows, and it holds in both versions. Scenario B keeps "
+s.append(P(f"Every window drops from the projection to the real values, since the model projected United too high "
+           f"overall: most of the squad rated lower in 2023-24 than on its 2022-23 numbers. The further drop to the "
+           f"capped version is lost minutes. What matters for the grade is the order between the windows, and it "
+           f"holds in both versions. Scenario B keeps "
            f"{h['B']['real_par_planned_min']:.0f} of its {h['B']['planned_par']:.0f} projected points above "
            f"replacement, the real window {h['actual']['real_par_planned_min']:.0f} of "
            f"{h['actual']['planned_par']:.0f}. In the capped version B loses another "

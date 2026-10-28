@@ -73,7 +73,7 @@ def figure(path, cap, width=TEXT_W):
     return KeepTogether([img, P(cap, caption)])
 
 
-def table(rows, widths, cap=None):
+def table(rows, widths, cap=None, totals=0):
     data = [[Paragraph(str(c), cell_head) for c in rows[0]]] + \
            [[Paragraph(str(c), cell) for c in r] for r in rows[1:]]
     t = Table(data, colWidths=widths, hAlign="LEFT")
@@ -85,6 +85,9 @@ def table(rows, widths, cap=None):
     for i in range(1, len(data)):
         if i % 2 == 0:
             st.append(("BACKGROUND", (0, i), (-1, i), colors.HexColor("#f7f6f3")))
+    if totals:
+        # line over the last n rows, so totals read as totals
+        st.append(("LINEABOVE", (0, len(data) - totals), (-1, len(data) - totals), 0.8, MUTED))
     t.setStyle(TableStyle(st))
     parts = [t]
     if cap:
